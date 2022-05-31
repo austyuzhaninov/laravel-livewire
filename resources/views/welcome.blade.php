@@ -5,7 +5,7 @@
         @livewireStyles
     </head>
     <body class="antialiased">
-        @livewire('hello-world') {{--create component php artisan make:livewire hello-world--}}
+        @livewire('hello-world', ['name' => 'Dmitriy']) {{--create component php artisan make:livewire hello-world--}}
         @livewireScripts
     </body>
 </html>
