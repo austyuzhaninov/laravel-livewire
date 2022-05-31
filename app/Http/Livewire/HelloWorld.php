@@ -14,4 +14,9 @@ class HelloWorld extends Component
     {
         return view('livewire.hello-world');
     }
+
+    public function resetName($name = 'Dmitriy')
+    {
+        $this->name = $name;
+    }
 }
